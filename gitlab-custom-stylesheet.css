@@ -1,0 +1,56 @@
+/*
+* Improve readability of fonts
+*/
+body {
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, 
+strong, 
+.context-header a, 
+.diff-stats-summary-toggler {
+    font-weight: 400;
+}
+
+/*
+* Hide edit file button
+* Edits should be made through MR's
+*/
+.btn.js-edit-blob.btn-sm {
+    display: none;
+}
+
+/*
+* Flag hidden files more obviously
+*/
+.nothing-here-block {
+    background-color: rgba(204,0,0, 0.1);
+}
+
+/*
+* Hide "new" button for repo's/snippets
+*/
+.header-new {
+    display: none;
+}
+
+/*
+* Hide manual MR instructions
+* Do your MR in Gitlabs UI
+*/
+.mr-widget-footer {
+    display: none;
+}
+
+/*
+* Hide issues button
+* Issues are not in Gitlab
+* Best to use ticket numbers e.g. [ABC-000000]
+*/
+.shortcuts-issues {
+    display: none;
+}
+
+
+
